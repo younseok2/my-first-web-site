@@ -1,0 +1,7 @@
+ - main_login <-> main_signup 상호 연동- 
+1. main_signup.php 를 통해 회원가입.
+2. 회원가입시 입력한 data는 Mysql-DB(SIGNUP)에 저장.
+3. 저장된 data를 통해 main_login에서 로그인.
+4. 로그인을 완료하면 index.php (홈페이지)와 연동.
+5. 홈페이지에서도 회원가입과 로그인 가능 / 홈페이지 메인에서 로그아웃 기능 
+    -> 로그아웃시 로그인 페이지(main_login.php)로 연결
